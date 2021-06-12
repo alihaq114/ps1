@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="envy"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-06-12 03:21:20 PM"/>
+        <attribute name="created" value="ZW52eTtERVNLVE9QLUVGS0w1S0k7MjAyMS0wNi0xMjswMjoyNDo0OCBQTTsyODAy"/>
+        <attribute name="edited" value="ZW52eTtERVNLVE9QLUVGS0w1S0k7MjAyMS0wNi0xMjswMzoyMToyMCBQTTsxOzI4OTg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="int1" type="Integer" array="False" size=""/>
+            <declare name="int2" type="Integer" array="False" size=""/>
+            <declare name="sum" type="Integer" array="False" size=""/>
+            <declare name="product" type="Integer" array="False" size=""/>
+            <declare name="difference" type="Integer" array="False" size=""/>
+            <input variable="int1"/>
+            <input variable="int2"/>
+            <assign variable="difference" expression="int1 - int2"/>
+            <assign variable="sum" expression="int1 + int2"/>
+            <assign variable="product" expression="int1 * int2"/>
+            <output expression="&quot;sum = &quot; &amp; sum &amp; &quot;, product= &quot; &amp; product &amp; &quot;, difference= &quot; &amp; difference" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
