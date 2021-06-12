@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="envy"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-06-12 03:46:49 PM"/>
+        <attribute name="created" value="ZW52eTtERVNLVE9QLUVGS0w1S0k7MjAyMS0wNi0xMjswMzozNjowNSBQTTsyNzk5"/>
+        <attribute name="edited" value="ZW52eTtERVNLVE9QLUVGS0w1S0k7MjAyMS0wNi0xMjswMzo0Njo0OSBQTTsyOzI5MTc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="lastName" type="String" array="False" size=""/>
+            <declare name="score1" type="Integer" array="False" size=""/>
+            <declare name="score2" type="Integer" array="False" size=""/>
+            <declare name="avg" type="Real" array="False" size=""/>
+            <output expression="&quot;enter last name: &quot;" newline="True"/>
+            <input variable="lastName"/>
+            <output expression="&quot;enter test score1: &quot;" newline="False"/>
+            <input variable="score1"/>
+            <output expression="&quot;enter score2: &quot;" newline="False"/>
+            <input variable="score2"/>
+            <assign variable="avg" expression="(score1 + score2)/ 2"/>
+            <output expression="lastName &amp; &quot; your test average is: &quot; &amp; avg" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
