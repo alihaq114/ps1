@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="envy"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-06-12 04:44:15 PM"/>
+        <attribute name="created" value="ZW52eTtERVNLVE9QLUVGS0w1S0k7MjAyMS0wNi0xMjswNDowNToxMiBQTTsyNzk0"/>
+        <attribute name="edited" value="ZW52eTtERVNLVE9QLUVGS0w1S0k7MjAyMS0wNi0xMjswNDo0NDoxNSBQTTsxOzI5MDg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="mdg" type="Integer" array="False" size=""/>
+            <declare name="gal" type="Integer" array="False" size=""/>
+            <declare name="mil" type="Integer" array="False" size=""/>
+            <output expression="&quot;enter Gallons used for the trip&quot;" newline="True"/>
+            <input variable="gal"/>
+            <output expression="&quot;Enter amount of miles: &quot;" newline="True"/>
+            <input variable="mil"/>
+            <assign variable="mdg" expression="mil / gal"/>
+            <output expression="&quot;You travled &quot; &amp; mdg &amp; &quot; miles per gallons&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
