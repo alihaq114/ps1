@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="envy"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-06-12 08:35:53 PM"/>
+        <attribute name="created" value="ZW52eTtERVNLVE9QLUVGS0w1S0k7MjAyMS0wNi0xMjswODoyODo1OSBQTTsyODE0"/>
+        <attribute name="edited" value="ZW52eTtERVNLVE9QLUVGS0w1S0k7MjAyMS0wNi0xMjswODozNTo1MyBQTTsxOzI5MTQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="iP" type="Real" array="False" size=""/>
+            <declare name="total" type="Real" array="False" size=""/>
+            <declare name="tax" type="Real" array="False" size=""/>
+            <output expression="&quot;enter the amount of items purchased&quot;" newline="False"/>
+            <input variable="iP"/>
+            <assign variable="tax" expression="iP * .07"/>
+            <assign variable="total" expression="iP + tax"/>
+            <output expression="&quot;Your items purchased + taxs = &quot; &amp; total &amp; &quot;$&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
