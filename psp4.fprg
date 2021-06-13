@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="envy"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-06-12 08:25:06 PM"/>
+        <attribute name="created" value="ZW52eTtERVNLVE9QLUVGS0w1S0k7MjAyMS0wNi0xMjswODoxODoyOSBQTTsyODEw"/>
+        <attribute name="edited" value="ZW52eTtERVNLVE9QLUVGS0w1S0k7MjAyMS0wNi0xMjswODoyNTowNiBQTTsxOzI5MTE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Aof" type="Real" array="False" size=""/>
+            <declare name="Tip" type="Real" array="False" size=""/>
+            <output expression="&quot;enter amount of meal: &quot;" newline="False"/>
+            <input variable="Aof"/>
+            <assign variable="Tip" expression="Aof * .15"/>
+            <output expression="&quot;Your Tip is: &quot; &amp; Tip &amp; &quot;$&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
